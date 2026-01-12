@@ -1,0 +1,37 @@
+2026-01-12 16:43:27.948846+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-01-12 16:43:27.956296+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-01-12 16:43:27.957293+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-01-12 16:43:27.972691+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-01-12 16:43:27.972691+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-01-12 16:43:27.972691+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-01-12 16:45:50.524312+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AMOUNT NUMERIC(15, 2)": "11111111111111.00 (16)"; SQL statement:
+insert into transactions (account_id,amount,timestamp,type,transaction_id) values (?,?,?,?,default) [22001-224]
+2026-01-12 16:50:34.309335+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-01-12 16:50:42.243309+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-01-12 16:50:56.500878+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-01-12 16:50:56.515919+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-01-12 16:51:58.925749+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-01-12 16:51:58.935898+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-01-12 16:52:15.982798+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-01-12 16:52:31.864511+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AMOUNT NUMERIC(15, 2)": "1111111111111111000000000000.00 (30)"; SQL statement:
+insert into transactions (account_id,amount,timestamp,type,transaction_id) values (?,?,?,?,default) [22001-224]
+2026-01-12 16:56:34.128002+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "AMOUNT NUMERIC(15, 2)": "11111111111111110000000000000000000.00 (37)"; SQL statement:
+insert into transactions (account_id,amount,timestamp,type,transaction_id) values (?,?,?,?,default) [22001-224]
+2026-01-12 17:00:10.065126+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
